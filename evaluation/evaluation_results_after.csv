@@ -1,0 +1,25 @@
+scenario_id,category,query,intent,status,actual_response,latency_total_s,latency_intent_llm_s,latency_embed_s,latency_answer_llm_s,llm_calls,failed_api_calls,tokens_in,tokens_out,top1_faq,top1_distance,observation
+EVAL-01,Relevansi Dasar,berapa jatah cuti tahunan saya?,faq,success,"Halo! Sebagai karyawan tetap, Anda mendapatkan jatah 12 hari cuti tahunan yang dapat diambil setelah masa kerja minimal 3 bulan. Semoga membantu!",2.46,0.0,0.57,1.87,1,0,315,32,Berapa jatah cuti tahunan karyawan tetap?,0.287,
+EVAL-02,Relevansi Dasar,gimana cara reset password vpn ya,faq,success,"Halo! Untuk melakukan reset password VPN, Anda dapat melakukannya secara mandiri melalui portal self-service IT, atau menghubungi tim IT Support jika akun Anda terkunci. 
+
+Ada lagi yang bisa saya bantu terkait masalah IT?",10.67,0.0,0.44,10.23,2,1,301,44,Bagaimana cara reset password VPN perusahaan?,0.261,
+EVAL-03,Parafrase/Sinonim,"saya lupa kata sandi laptop kantor, harus gimana?",faq,success,"Halo! Tentu, saya siap membantu.
+
+Untuk masalah lupa password akun laptop kerja, silakan hubungi tim IT Support melalui tiket untuk melakukan reset password. Nantinya, verifikasi identitas akan dilakukan terlebih dahulu sebelum proses reset dikerjakan. 
+
+Ada hal lain seputar IT yang bisa saya bantu?",11.55,0.0,0.55,11.0,2,1,319,63,Bagaimana jika lupa password akun laptop kerja?,0.279,
+EVAL-04,Di Luar Cakupan,apakah kantor menyediakan tempat parkir motor gratis?,faq,success,"Mohon maaf, saya belum memiliki informasi tersebut. Saya hanya dapat membantu seputar cuti, akses & password, perangkat, onboarding/HR, kebijakan kerja, dan status tiket IT. Silakan hubungi tim IT/HR terkait untuk pertanyaan di luar itu.",0.44,0.0,0.44,0.0,0,0,0,0,Apakah perusahaan menerapkan kebijakan kerja hybrid?,0.693,
+EVAL-05,Di Luar Cakupan,siapa nama CEO perusahaan ini?,faq,success,"Mohon maaf, saya belum memiliki informasi tersebut. Saya hanya dapat membantu seputar cuti, akses & password, perangkat, onboarding/HR, kebijakan kerja, dan status tiket IT. Silakan hubungi tim IT/HR terkait untuk pertanyaan di luar itu.",0.45,0.0,0.45,0.0,0,0,0,0,Kepada siapa saya melapor jika ada masalah dengan atasan langsung?,0.735,
+EVAL-06,Tool Call Valid,apa status TICKET-0005?,ticket_status,success,Tiket TICKET-0005 (Reset password VPN gagal terus) atas nama Dedi Kurniawan saat ini berstatus 'Diproses'. Terakhir diperbarui pada 2026-08-27.,0.01,0.0,0.0,0.0,0,0,0,0,,,
+EVAL-07,Tool Call Invalid,apa status TICKET-9999?,ticket_status,success,"Tiket dengan ID 'TICKET-9999' tidak ditemukan. Pastikan ID sudah benar, atau hubungi tim IT Support.",0.0,0.0,0.0,0.0,0,0,0,0,,,
+EVAL-08,Tool Call Ambigu,tiket saya gimana ya?,ticket_status,error,Mohon sertakan ID tiket (format: TICKET-XXXX) pada pertanyaan Anda.,5.05,5.05,0.0,0.0,1,0,80,3,,,
+EVAL-09,Routing Ambigu,kenapa laptop saya lambat dan gimana cara cek tiket yang saya buat soal itu?,ticket_status,error,Mohon sertakan ID tiket (format: TICKET-XXXX) pada pertanyaan Anda.,7.37,7.37,0.0,0.0,1,0,91,3,,,
+EVAL-10,Konsistensi,berapa hari cuti tahunan yang saya dapat?,faq,success,"Halo! Sebagai karyawan tetap, Anda mendapatkan jatah 12 hari cuti tahunan yang dapat diambil setelah masa kerja minimal 3 bulan. Ada lagi yang bisa saya bantu?",1.49,0.0,0.78,0.71,1,0,320,36,Berapa jatah cuti tahunan karyawan tetap?,0.3,
+EVAL-11,Beban Panjang,"Tolong jelaskan sedetail-detailnya seluruh kebijakan cuti, reset password, permintaan perangkat, dan proses onboarding sekaligus dalam satu jawaban.",faq,success,"Halo! Saya dengan senang hati membantu memberikan informasi terkait pertanyaan Anda berdasarkan FAQ yang tersedia:
+
+*   **Reset Password Laptop:** Jika Anda lupa password akun laptop kerja, silakan hubungi tim IT Support melalui tiket untuk melakukan reset. Harap diingat bahwa verifikasi identitas akan dilakukan sebelum proses reset dilakukan.
+*   **Pengajuan Cuti:** Cuti diajukan melalui portal HR internal minimal 3 hari kerja sebelum tanggal cuti dan memerlukan persetujuan dari atasan langsung Anda.
+*   **Onboarding:** Sesi onboarding IT mencakup pelatihan dasar penggunaan tools internal yang dijadwalkan pada minggu pertama Anda bergabung di perusahaan.
+
+Mengenai permintaan perangkat, saya belum memiliki informasi tersebut di dalam FAQ. Silakan hubungi tim IT atau HR terkait untuk mendapatkan bantuan lebih lanjut mengenai hal tersebut.",2.81,0.0,0.46,2.34,1,0,327,165,Bagaimana jika lupa password akun laptop kerja?,0.483,
+EVAL-12,Resource/Token,halo,greeting,success,"Halo! Saya asisten IT Helpdesk. Saya bisa membantu soal cuti, akses & password, perangkat, onboarding/HR, kebijakan kerja, dan cek status tiket (sebutkan ID, mis. TICKET-0005).",0.0,0.0,0.0,0.0,0,0,0,0,,,

@@ -1,0 +1,34 @@
+scenario_id,category,query,intent,status,actual_response,latency_total_s,latency_intent_llm_s,latency_embed_s,latency_answer_llm_s,llm_calls,failed_api_calls,tokens_in,tokens_out,top1_faq,top1_distance,observation
+EVAL-11,Beban Panjang,"Tolong jelaskan sedetail-detailnya seluruh kebijakan cuti, reset password, permintaan perangkat, dan proses onboarding sekaligus dalam satu jawaban.",faq,success,"Halo! Saya senang membantu Anda. Berikut adalah informasi terkait pertanyaan Anda berdasarkan FAQ yang tersedia:
+
+*   **Reset Password Laptop:** Jika Anda lupa password akun laptop kerja, silakan hubungi tim IT Support melalui tiket untuk proses reset. Harap diingat bahwa verifikasi identitas akan dilakukan sebelum reset dilakukan.
+*   **Pengajuan Cuti:** Cuti diajukan melalui portal HR internal minimal 3 hari kerja sebelum tanggal cuti dan memerlukan persetujuan dari atasan langsung.
+*   **Proses Onboarding:** Sesi onboarding IT untuk karyawan baru mencakup pelatihan dasar penggunaan tools internal dan dijadwalkan pada minggu pertama karyawan bergabung.
+
+Mengenai permintaan perangkat, saya belum memiliki informasi tersebut di FAQ kami. Mohon hubungi tim IT terkait untuk mendapatkan informasi lebih lanjut.",5.24,0,0.47,4.76,1,0,327,162,Bagaimana jika lupa password akun laptop kerja?,0.483,
+EVAL-11,Beban Panjang,"Tolong jelaskan sedetail-detailnya seluruh kebijakan cuti, reset password, permintaan perangkat, dan proses onboarding sekaligus dalam satu jawaban.",faq,success,"Halo! Saya siap membantu menjawab pertanyaan Anda terkait layanan IT Helpdesk. 
+
+Berdasarkan informasi yang saya miliki, berikut adalah ketentuan yang tersedia:
+
+1. **Lupa password akun laptop kerja:** 
+   Anda dapat menghubungi tim IT Support melalui tiket untuk melakukan *reset* password. Verifikasi identitas akan dilakukan sebelum proses *reset* tersebut dijalankan.
+
+2. **Pengajuan cuti:** 
+   Cuti diajukan melalui portal HR internal minimal 3 hari kerja sebelum tanggal cuti, dan memerlukan persetujuan dari atasan langsung.
+
+3. **Pelatihan *tools* internal (Onboarding):** 
+   Sesi *onboarding* IT mencakup pelatihan dasar penggunaan *tools* internal dan dijadwalkan pada minggu pertama karyawan bergabung.
+
+Terkait permintaan perangkat, saat ini saya belum memiliki informasi tersebut. Silakan menghubungi tim IT/HR terkait untuk mendapatkan informasi lebih lanjut. 
+
+Ada hal lain seputar IT Helpdesk yang bisa saya bantu?",10.71,0,0.45,10.25,2,1,327,205,Bagaimana jika lupa password akun laptop kerja?,0.483,
+EVAL-11,Beban Panjang,"Tolong jelaskan sedetail-detailnya seluruh kebijakan cuti, reset password, permintaan perangkat, dan proses onboarding sekaligus dalam satu jawaban.",faq,success,"Halo! Saya bantu jawab pertanyaan Anda berdasarkan informasi yang tersedia ya:
+
+1. **Reset Password:** Jika Anda lupa password akun laptop kerja, silakan hubungi tim IT Support melalui tiket untuk melakukan *reset password*. Verifikasi identitas akan dilakukan sebelum proses *reset* dilakukan.
+2. **Pengajuan Cuti:** Cuti diajukan melalui portal HR internal minimal 3 hari kerja sebelum tanggal cuti, dan memerlukan persetujuan atasan langsung.
+3. **Pelatihan Karyawan Baru:** Sesi *onboarding* IT mencakup pelatihan dasar penggunaan *tools* internal, yang dijadwalkan pada minggu pertama karyawan bergabung.
+
+Terkait permintaan perangkat, saat ini saya belum memiliki informasi tersebut di dalam FAQ. Untuk informasi lebih lanjut mengenai permintaan perangkat, silakan hubungi tim IT atau HR terkait ya. Ada hal lain yang bisa saya bantu?",9.73,0,0.46,9.26,2,1,327,177,Bagaimana jika lupa password akun laptop kerja?,0.483,
+EVAL-12,Resource/Token,halo,greeting,success,"Halo! Saya asisten IT Helpdesk. Saya bisa membantu soal cuti, akses & password, perangkat, onboarding/HR, kebijakan kerja, dan cek status tiket (sebutkan ID, mis. TICKET-0005).",0.0,0,0.0,0.0,0,0,0,0,,,
+EVAL-12,Resource/Token,halo,greeting,success,"Halo! Saya asisten IT Helpdesk. Saya bisa membantu soal cuti, akses & password, perangkat, onboarding/HR, kebijakan kerja, dan cek status tiket (sebutkan ID, mis. TICKET-0005).",0.0,0,0.0,0.0,0,0,0,0,,,
+EVAL-12,Resource/Token,halo,greeting,success,"Halo! Saya asisten IT Helpdesk. Saya bisa membantu soal cuti, akses & password, perangkat, onboarding/HR, kebijakan kerja, dan cek status tiket (sebutkan ID, mis. TICKET-0005).",0.0,0,0.0,0.0,0,0,0,0,,,

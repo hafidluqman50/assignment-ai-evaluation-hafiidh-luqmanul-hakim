@@ -1,0 +1,19 @@
+scenario_id,category,query,intent,status,actual_response,latency_total_s,latency_intent_llm_s,latency_embed_s,latency_answer_llm_s,llm_calls,failed_api_calls,tokens_in,tokens_out,top1_faq,top1_distance,observation
+EVAL-11,Beban Panjang,"Tolong jelaskan sedetail-detailnya seluruh kebijakan cuti, reset password, permintaan perangkat, dan proses onboarding sekaligus dalam satu jawaban.",faq,success,"Halo! Saya senang dapat membantu Anda. Berikut adalah informasi terkait pertanyaan Anda berdasarkan FAQ yang tersedia:
+
+*   **Reset Password:** Jika Anda lupa password akun laptop kerja, silakan hubungi tim IT Support melalui tiket untuk melakukan reset. Harap diingat bahwa verifikasi identitas akan dilakukan sebelum proses reset dilakukan.
+*   **Pengajuan Cuti:** Cuti diajukan melalui portal HR internal minimal 3 hari kerja sebelum tanggal cuti dan memerlukan persetujuan dari atasan langsung.
+*   **Onboarding:** Sesi onboarding IT mencakup pelatihan dasar penggunaan tools internal dan dijadwalkan pada minggu pertama karyawan bergabung.
+
+Terkait **permintaan perangkat**, mohon maaf saya belum memiliki informasi tersebut dalam FAQ. Silakan hubungi tim IT terkait untuk mendapatkan penjelasan lebih lanjut mengenai prosedur permintaan perangkat.",7.02,1.05,0.42,5.49,2,0,324,167,Bagaimana jika lupa password akun laptop kerja?,0.483,
+EVAL-11,Beban Panjang,"Tolong jelaskan sedetail-detailnya seluruh kebijakan cuti, reset password, permintaan perangkat, dan proses onboarding sekaligus dalam satu jawaban.",unknown,error,Terjadi kesalahan saat memproses permintaan Anda. Silakan coba lagi. (ServerError),9.92,1.46,0.43,8.03,2,1,103,1,Bagaimana jika lupa password akun laptop kerja?,0.483,
+EVAL-11,Beban Panjang,"Tolong jelaskan sedetail-detailnya seluruh kebijakan cuti, reset password, permintaan perangkat, dan proses onboarding sekaligus dalam satu jawaban.",faq,success,"Halo! Saya dengan senang hati membantu menjelaskan kebijakan yang Anda tanyakan berdasarkan informasi yang tersedia:
+
+*   **Reset Password Akun Laptop:** Jika Anda lupa password, silakan hubungi tim IT Support melalui tiket. Tim kami akan melakukan verifikasi identitas terlebih dahulu sebelum proses reset dilakukan.
+*   **Pengajuan Cuti:** Cuti diajukan melalui portal HR internal minimal 3 hari kerja sebelum tanggal cuti dan memerlukan persetujuan dari atasan langsung Anda.
+*   **Proses Onboarding:** Sesi onboarding IT mencakup pelatihan dasar penggunaan tools internal yang dijadwalkan pada minggu pertama karyawan bergabung.
+
+Mengenai **permintaan perangkat**, mohon maaf saya belum memiliki informasi tersebut dalam FAQ. Silakan hubungi tim IT terkait untuk mendapatkan penjelasan lebih lanjut mengenai prosedur permintaan perangkat.",60.34,6.98,0.63,52.73,2,0,324,165,Bagaimana jika lupa password akun laptop kerja?,0.483,
+EVAL-12,Resource/Token,halo,faq,success,Halo! Ada yang bisa saya bantu terkait kendala IT atau pertanyaan seputar prosedur perusahaan hari ini?,4.94,3.08,0.44,1.42,2,0,270,21,Berapa lama waktu perbaikan perangkat yang rusak?,1.035,
+EVAL-12,Resource/Token,halo,faq,success,Halo! Ada yang bisa saya bantu terkait kendala IT atau pertanyaan seputar prosedur perusahaan hari ini?,29.65,26.35,0.56,2.74,2,0,270,21,Berapa lama waktu perbaikan perangkat yang rusak?,1.035,
+EVAL-12,Resource/Token,halo,faq,success,Halo! Ada yang bisa saya bantu terkait kendala IT atau pertanyaan seputar prosedur perusahaan hari ini?,18.63,14.68,0.57,3.37,2,0,270,21,Berapa lama waktu perbaikan perangkat yang rusak?,1.035,
